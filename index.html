@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE FAMILY</title>
+
+    <style>
+        .my_project {
+            display: block;
+            background-color: pink;
+            border: 2px solid black; 
+            padding: 20px; 
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+
+        h1{
+            font-size: 26px;
+            border: 3px solid black; 
+            color: blueviolet;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: 22px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.6;
+        }
+       
+        .btn{
+           
+            text-transform:uppercase;
+            font-size:20px;
+            width: 80%;
+            margin: 30px;
+            cursor: pointer;
+            color: blueviolet;
+           
+       
+           
+        }
+        
+        
+        .image{
+            width: 100%;
+            display: block;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="my_project">
+        <h1 >
+            I LOVE MY FAMILY.
+        </h1>
+        <h2>
+            Family is not an important thing, it is EVERYTHING!
+        </h2>
+        
+        <hr>
+        <img class="image" src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/374/original/Daco_325015.png?1700393488" alt="Family picture">
+        <hr>
+        <p>
+             What is a family?
+
+The answer to the question “what does family mean?” is both difficult to answer and highly subjective. The word has shifted its meaning considerably since it entered our language, currently contains many different senses, and in at least one of these senses may signify different things to different people. The earliest uses of family denoted “a group of persons in the service of an individual,” a sense that is now archaic. Although this early meaning may seem far afield from the way that most of us use family today, it is not surprising when we consider that the word comes from the Latin familia, which meant “household,” a designation that included both servants and relatives. </br>
+Personally, family doesn't often mean blood-related but means where the love is at, my comfort zone, where I am allowed to be my authentic self. Family means LOVE to me and there's nothing else i'd rather want in this world than to see my family happy, united and healthy. Family is one of the most important, if not the most important thing in our lives. Taking time every day to appreciate your loved ones for all that they do helps us to reconnect as a family.
+        </p>
+        <a href="https://parade.com/1045384/marynliles/family-quotes/" target="_blank" rel="noopener noreferrer">Read More</a>
+        <br>
+        <button class="btn"> Click here for a Surprise </button>
+
+        <script>
+            document.querySelector('.btn').addEventListener('click',function(){
+
+                let name = prompt("What's your name");
+
+                if(name.length){
+                    alert("Thanks " + name + ", for being part of a family!")
+                } else {
+                    alert("No name, find love!")
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>
+
